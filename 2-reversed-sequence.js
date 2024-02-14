@@ -1,0 +1,14 @@
+//* Soalnya diminta untuk mengurutkan nilai terbesar ke terkecil
+//* dari sebuah array
+
+const reverseSeq = (n) => {
+  let result = [];
+
+  for (let i = n; i >= 1; i--) {
+    result.push(i);
+  }
+
+  return result;
+};
+
+console.log(reverseSeq(5));
