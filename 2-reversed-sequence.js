@@ -12,3 +12,11 @@ const reverseSeq = (n) => {
 };
 
 console.log(reverseSeq(5));
+
+//? Bisa juga kayak ini
+
+const reverseSeqTwo = (n) => {
+  return Array(n)
+    .fill()
+    .map((el, i) => i + 1).reverse;
+};
