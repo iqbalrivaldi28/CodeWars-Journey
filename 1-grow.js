@@ -1,6 +1,8 @@
 //* Soal 1 diminta untuk mengklikan semua nilai yg ada dalam sebuah array
 //* [1, 2, 3, 4] maka hasilnya harus 24
 
+//? Link soal: https://www.codewars.com/kata/57f780909f7e8e3183000078
+
 function grow(x) {
   let result = x[0];
 
