@@ -12,5 +12,10 @@ const quarterOf = (month) => {
   }
 };
 
+//? Cara kedua
+const quarterOfDua = (month) => Math.ceil(month / 3);
+
 console.log(quarterOf(3));
 console.log(quarterOf(8));
+
+console.log(quarterOfDua(8));
