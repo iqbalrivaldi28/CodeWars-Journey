@@ -17,7 +17,7 @@ function updateLight(current) {
 //? Kalau pake ternary operator
 function updateLightDua(current) {
   return current === 'green' ? 'yellow' : current === 'yellow' ? 'red' : 'green';
-}
+}   
 
 console.log(updateLight('green'));
 console.log(updateLight('yellow'));
