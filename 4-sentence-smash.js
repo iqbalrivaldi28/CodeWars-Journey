@@ -13,3 +13,19 @@ console.log(smash(['this', 'is', 'a', 'really', 'long', 'sentence']));
 const smashTwo = (words) => words.join(' ');
 
 console.log(smashTwo(['Aku', 'suka', 'kamu']));
+
+
+
+
+//? Try urut angka besar ke kecil
+function urutAngka(x) {
+  let result = [];
+
+  for(let i = x; i >= 1; i--){
+    result.push(i)
+  }
+  
+  return result
+}
+
+console.log(urutAngka(6));

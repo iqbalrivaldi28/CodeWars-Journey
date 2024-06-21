@@ -26,4 +26,19 @@ function growTwo(x) {
   return result;
 }
 
-console.log(growTwo([2, 2, 2])); //? Hasilnya 8
+console.log(growTwo([2, 2])); //? Hasilnya 8
+
+
+//? Coba sendiri
+function coba(x) {
+  let result = x[0];
+
+  for(let i = 1; i < x.length; i++){
+    result = result * x[i];
+  }
+
+  return result
+}
+
+console.log(coba([5, 2])); //? Hasilnya 10
+

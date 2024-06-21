@@ -23,3 +23,13 @@ function heroTwo(bullets, dragons) {
 }
 
 console.log(heroTwo(10, 5));
+
+
+//? Coba sendiri
+
+const game = (bullets, dragons) => {
+  const result = bullets / 2 >= dragons ? true : false;
+  return result;
+}
+
+console.log(game(10, 5));
