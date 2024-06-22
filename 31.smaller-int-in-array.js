@@ -7,3 +7,9 @@ function findSmallestInt(arr) {
 }
 
 console.log(findSmallestInt([1, 2, 3, 4, 5, 0]));
+
+const findBiggestInt = (arr) => {
+    return Math.max(...arr);
+}
+
+console.log(findBiggestInt([100, 50, 30, 40]));
